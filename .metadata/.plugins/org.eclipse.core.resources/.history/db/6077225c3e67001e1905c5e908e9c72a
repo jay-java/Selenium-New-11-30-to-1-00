@@ -1,7 +1,0 @@
-package first;
-//Two Types
-public class P002_DataType {
-	public static void main(String[] args) {
-		
-	}
-}

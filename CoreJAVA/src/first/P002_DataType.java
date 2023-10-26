@@ -7,6 +7,7 @@ public class P002_DataType {
 	public static void main(String[] args) {
 		// 1.Primitive
 		byte b = 12;
+		System.out.println(b);
 		byte b1 = 127;
 		System.out.println(b1);
 
@@ -28,7 +29,7 @@ public class P002_DataType {
 		boolean flag = true;
 		System.out.println(flag);
 
-		char c = 'A';
+		char c = 'f';
 		System.out.println(c);
 	}
 }

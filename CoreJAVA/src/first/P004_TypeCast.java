@@ -1,13 +1,20 @@
 package first;
+//implicit->compiler
+//explicit->by user
+import java.util.Scanner;
 
 public class P004_TypeCast {
 	public static void main(String[] args) {
-		int i = 10, j = 3; 
-		double a = i;
-		System.out.println(a);
-		double d= 23.345;
+		double d = 1.321654;
 		System.out.println(d);
-		int q = (int)d;
-		System.out.println(q);
+		int i = (int)d;
+		System.out.println(i);
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter a = ");
+		int a = sc.nextInt();
+		System.out.println("enter b = ");
+		int b = sc.nextInt();
+		double c = (double)a / (double)b;
+		System.out.println(c);
 	}
 }
