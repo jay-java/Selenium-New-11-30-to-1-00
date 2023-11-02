@@ -7,4 +7,7 @@
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="first.Data"/>
+    <fullyQualifiedTypeName name="first.ABC"/>
+    <fullyQualifiedTypeName name="first.UserData"/>
 </qualifiedTypeNameHistroy>
