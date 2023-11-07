@@ -3,7 +3,6 @@
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="first.Call"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
@@ -17,4 +16,15 @@
     <fullyQualifiedTypeName name="first.Calling"/>
     <fullyQualifiedTypeName name="first.SBI"/>
     <fullyQualifiedTypeName name="first.JAVA"/>
+    <fullyQualifiedTypeName name="first.Mobile"/>
+    <fullyQualifiedTypeName name="first.InterCall"/>
+    <fullyQualifiedTypeName name="first.Daata"/>
+    <fullyQualifiedTypeName name="first.Divide"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="first.User"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
 </qualifiedTypeNameHistroy>
