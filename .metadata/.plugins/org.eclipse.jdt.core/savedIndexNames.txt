@@ -2,7 +2,6 @@ INDEX VERSION 1.134+C:\Users\jay-pc\Selenium TTS 11-30 to 1-00\.metadata\.plugin
 787410001.index
 3011209426.index
 2813430973.index
-2933130940.index
 954632374.index
 2306137876.index
 357290177.index
