@@ -12,7 +12,6 @@ public class P010_MouseEvent {
 	public static void main(String[] args) throws InterruptedException {
 		String url ="https://www.amazon.in/";
 		WebDriver driver = DriverConnection.getDriver(url);
-		
 		WebElement fresh = driver.findElement(By.linkText("Fresh"));
 		WebElement miniTV = driver.findElement(By.linkText("Amazon miniTV"));
 		WebElement sell = driver.findElement(By.linkText("Sell"));
