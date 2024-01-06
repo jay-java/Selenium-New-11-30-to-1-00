@@ -20,13 +20,11 @@ public class P012_KeyBoard {
 		Actions action = new Actions(driver);
 		action.click(search)
 			.keyDown(Keys.SHIFT)
-			.sendKeys("selenium learnig with java")
+			.sendKeys("learn selenium")
+			.pause(Duration.ofSeconds(2))
 			.keyUp(Keys.SHIFT)
-//			.pause(Duration.ofSeconds(3))
-			.keyDown(Keys.ARROW_DOWN)
 			.keyDown(Keys.ARROW_DOWN)
 			.keyDown(Keys.ENTER)
-			.build()
 			.perform();
 		
 	}
