@@ -19,6 +19,7 @@ public class P006Parameterized {
 		this.b = b;
 		this.res = res;
 	}
+
 	@Test
 	public void addTest() {
 		Calc c = new Calc();
