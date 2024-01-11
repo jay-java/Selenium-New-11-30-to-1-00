@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,17 +50,17 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\jay-pc\Selenium TTS 11-30 to 1-00\TestNG_Learning\group.xml</span>
+                    <span>C:\Users\jay-pc\Selenium TTS 11-30 to 1-00\TestNG_Learning\fblistener.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="group-Suite" class="navigator-link ">
-                    <span>2 groups</span>
+                    <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,51 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods,   7 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Suite">
+                    <div class="method-list-content failed suite-Suite">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="shopping.Payment" class="method navigator-link" hash-for-method="UPI">UPI</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="listeners.P03FBTest" class="method navigator-link" hash-for-method="titleTest(org.testng.TestRunner@8c3b9d)">titleTest(org.testng.TestRunner@8c3b9d)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="shopping.Product" class="method navigator-link" hash-for-method="addTOCart">addTOCart</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="shopping.Product" class="method navigator-link" hash-for-method="compare">compare</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="shopping.Payment" class="method navigator-link" hash-for-method="debitCard">debitCard</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="shopping.User" class="method navigator-link" hash-for-method="forgotPasswortd">forgotPasswortd</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="shopping.User" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="shopping.Product" class="method navigator-link" hash-for-method="searchProdcut">searchProdcut</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -148,114 +118,45 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">shopping.User</span>
+              <img src="failed.png"/>
+              <span class="class-name">listeners.P03FBTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="forgotPasswortd">
-                  </a> <!-- forgotPasswortd -->
-                  <span class="method-name">forgotPasswortd</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="login">
-                  </a> <!-- login -->
-                  <span class="method-name">login</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">shopping.Product</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="addTOCart">
-                  </a> <!-- addTOCart -->
-                  <span class="method-name">addTOCart</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="compare">
-                  </a> <!-- compare -->
-                  <span class="method-name">compare</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="searchProdcut">
-                  </a> <!-- searchProdcut -->
-                  <span class="method-name">searchProdcut</span>
+                  <a name="titleTest(org.testng.TestRunner@8c3b9d)">
+                  </a> <!-- titleTest(org.testng.TestRunner@8c3b9d) -->
+                  <span class="method-name">titleTest</span>
+                  <span class="parameters">(org.testng.TestRunner@8c3b9d)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Facebook] but found [Facebook – log in or sign up]
+	at listeners.P03FBTest.titleTest(P03FBTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">shopping.Payment</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="UPI">
-                  </a> <!-- UPI -->
-                  <span class="method-name">UPI</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="debitCard">
-                  </a> <!-- debitCard -->
-                  <span class="method-name">debitCard</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-failed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\jay-pc\Selenium TTS 11-30 to 1-00\TestNG_Learning\group.xml</span>
+            <span class="header-content">C:\Users\jay-pc\Selenium TTS 11-30 to 1-00\TestNG_Learning\fblistener.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.P04FBTestListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
-    &lt;groups&gt;
-      &lt;run&gt;
-        &lt;include name=&quot;purchase&quot;/&gt;
-      &lt;/run&gt;
-    &lt;/groups&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;shopping.Product&quot;/&gt;
-      &lt;class name=&quot;shopping.Payment&quot;/&gt;
-      &lt;class name=&quot;shopping.User&quot;/&gt;
+      &lt;class name=&quot;listeners.P03FBTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test1&quot;&gt;
-    &lt;groups&gt;
-      &lt;run&gt;
-        &lt;include name=&quot;smoke&quot;/&gt;
-        &lt;exclude name=&quot;purchase&quot;/&gt;
-      &lt;/run&gt;
-    &lt;/groups&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;shopping.Product&quot;/&gt;
-      &lt;class name=&quot;shopping.Payment&quot;/&gt;
-      &lt;class name=&quot;shopping.User&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test1 --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -267,10 +168,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (3 classes)</span>
-              </li>
-              <li>
-                <span class="test-name">Test1 (3 classes)</span>
+                <span class="test-name">Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -280,46 +178,6 @@
             <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="test-group">
-              <span class="test-group-name">purchase</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">addTOCart</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">debitCard</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">login</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">searchProdcut</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">smoke</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">UPI</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">addTOCart</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">compare</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">forgotPasswortd</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Suite" class="panel">
@@ -336,40 +194,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(7);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'addTOCart')
-data.setCell(0, 2, 'shopping.Product')
-data.setCell(0, 3, 11);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'searchProdcut')
-data.setCell(1, 2, 'shopping.Product')
-data.setCell(1, 3, 2);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'debitCard')
-data.setCell(2, 2, 'shopping.Payment')
-data.setCell(2, 3, 2);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'UPI')
-data.setCell(3, 2, 'shopping.Payment')
-data.setCell(3, 3, 2);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'login')
-data.setCell(4, 2, 'shopping.User')
-data.setCell(4, 3, 1);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'forgotPasswortd')
-data.setCell(5, 2, 'shopping.User')
-data.setCell(5, 3, 1);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'compare')
-data.setCell(6, 2, 'shopping.Product')
-data.setCell(6, 3, 1);
+data.setCell(0, 1, 'titleTest')
+data.setCell(0, 2, 'listeners.P03FBTest')
+data.setCell(0, 3, 2233);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 ms</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -384,62 +218,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">19 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">shopping.User</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">logout</span>
-                <br/>
-                <span class="ignored-method-name">login</span>
-                <br/>
-                <span class="ignored-method-name">CA</span>
-                <br/>
-                <span class="ignored-method-name">forgotPasswortd</span>
-                <br/>
-                <span class="ignored-method-name">CA</span>
-                <br/>
-                <span class="ignored-method-name">logout</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">shopping.Product</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">wishList</span>
-                <br/>
-                <span class="ignored-method-name">compare</span>
-                <br/>
-                <span class="ignored-method-name">wishList</span>
-                <br/>
-                <span class="ignored-method-name">searchProdcut</span>
-                <br/>
-                <span class="ignored-method-name">addTOCart</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">shopping.Payment</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">UPI</span>
-                <br/>
-                <span class="ignored-method-name">netBanking</span>
-                <br/>
-                <span class="ignored-method-name">netBanking</span>
-                <br/>
-                <span class="ignored-method-name">COD</span>
-                <br/>
-                <span class="ignored-method-name">COD</span>
-                <br/>
-                <span class="ignored-method-name">creditCard</span>
-                <br/>
-                <span class="ignored-method-name">creditCard</span>
-                <br/>
-                <span class="ignored-method-name">debitCard</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -448,49 +229,12 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">shopping.Product</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">listeners.P03FBTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">addTOCart</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">titleTest(org.testng.TestRunner@8c3b9d)</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">searchProdcut</span>
-                <span class="method-start">18 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">shopping.Payment</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">debitCard</span>
-                <span class="method-start">27 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">shopping.User</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">login</span>
-                <span class="method-start">32 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">shopping.Product</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">compare</span>
-                <span class="method-start">104 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">shopping.Payment</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">UPI</span>
-                <span class="method-start">109 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">shopping.User</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">forgotPasswortd</span>
-                <span class="method-start">113 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

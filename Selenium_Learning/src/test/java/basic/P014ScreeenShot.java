@@ -13,7 +13,6 @@ import util.DriverConnection;
 public class P014ScreeenShot {
 	public static void getScreenShot(WebDriver driver,String path) {
 		TakesScreenshot ss = (TakesScreenshot)driver;
-		
 		File source =ss.getScreenshotAs(OutputType.FILE);
 		File dest = new File(path); 
 		try {
