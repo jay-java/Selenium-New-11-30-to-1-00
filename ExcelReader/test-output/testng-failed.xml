@@ -6,7 +6,7 @@
       <class name="com.DataDriven">
         <methods>
           <include name="openBrowser"/>
-          <include name="logintest"/>
+          <include name="logintest" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- com.DataDriven -->
     </classes>

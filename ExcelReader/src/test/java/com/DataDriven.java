@@ -31,6 +31,7 @@ public class DataDriven {
 		Thread.sleep(3000);
 
 	}
+	
 
 	@DataProvider(name = "dp")
 	public static Object[][] data() {
